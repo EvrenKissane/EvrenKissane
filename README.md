@@ -5,6 +5,7 @@
 - 👯 I’m looking to collaborate on FUN STUFF!
 
 - 📫 How to reach me: 
+  <br />
   Email: evrenykwork@gmail.com
 
 <!--
