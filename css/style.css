@@ -15,6 +15,12 @@ h1 {
     color: black;
     text-align: center;
 }
+h2 {
+    font-size: 3rem;
+    font-family: 'PT Serif', serif;
+    color: black;
+    text-align: center;
+}
 body {
     background-color: #f8f80c;
 }
@@ -25,6 +31,12 @@ body {
     text-align: center;
 }
 p {
+    size: 2rem;
+    font-family: 'Open Sans', sans-serif;
+    color: black;
+}
+li {
+    font-size: 2rem;
     font-family: 'Open Sans', sans-serif;
     color: black;
 }
@@ -32,7 +44,7 @@ p {
     font-size: 3rem;
     text-align: center;
     margin: 0 3rem -3rem 3rem;
-    padding-bottom: .5rem;
+    padding-bottom: 3rem;
     background-color: #0010f0;
 }
 #biography {
@@ -49,9 +61,16 @@ p {
 .green {
     color: #0bd985;
 }
+#hobbies {
+    margin: 0 3rem 0 3rem;
+    padding-top: .5rem;
+    padding-left: 1rem;
+    padding-bottom: 3rem;
+    background-color: #0bd985;
+}
 footer {
     text-align: right;
     margin: -2rem 3rem -2rem 3rem;
     padding-top: .5rem;
-    background-color: #0bd985;
+    background-color: #f8970c;
 }
