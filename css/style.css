@@ -124,4 +124,9 @@ figcaption {
     margin-left: 1rem;
 }
 
+#lit div {
+    columns: 40rem;
+    max-width: 100%;
+}
+
 }
