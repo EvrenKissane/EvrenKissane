@@ -2,13 +2,9 @@
 font-family: 'Open Sans', sans-serif;
 font-family: 'PT Serif', serif;
 */
-header {
-    background-color: #f8970c;
-    margin: -1rem 3rem 0 3rem;
-}
-#logo {
-    width: 5rem;
-}
+
+/*Font*/
+
 h1 {
     font-size: 6rem;
     font-family: 'PT Serif', serif;
@@ -21,37 +17,7 @@ h2 {
     color: black;
     text-align: center;
 }
-#vid-div {
-    margin: 0 auto;
-    width: 100%;
-}
-#vid-wrapper {
-    position: relative;
-    padding-bottom: 56.25%;
-    margin-top: 60px;
-    margin-bottom: 15px;
-    height: 0px;
-    margin-left: 3rem;
-    margin-right: 3rem;
-}
-#vid-wrapper iframe {
-    position: absolute;
-    left: 0px;
-    top: 0px;
-    bottom: 0px;
-    right: 0px;
-    height: 100%;
-    width: 100%;
-}
-body {
-    background-color: #f8f80c;
-}
-#avatar {
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-    text-align: center;
-}
+
 p {
     size: 2rem;
     font-family: 'Open Sans', sans-serif;
@@ -79,19 +45,21 @@ li {
     padding-bottom: 3rem;
     background-color: #0010f0;
 }
-#biography {
-    font-size: 2rem;
-    margin: 0 3rem 0 3rem;
-    padding-top: 1rem;
-    padding-left: 1rem;
-    padding-bottom: 1rem;
-    background-color: #db0068;
+/*End of Font*/
+
+/*Section Style*/
+#logo {
+    width: 5rem;
 }
-.yellow {
-    color: #f8f80c;
+#avatar {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    text-align: center;
 }
-.green {
-    color: #0bd985;
+header {
+    background-color: #f8970c;
+    margin: -1rem 3rem 0 3rem;
 }
 #hobbies {
     margin: 0 3rem 0 3rem;
@@ -103,6 +71,41 @@ li {
     flex-direction: column; 
     align-items: center;
 }
+#biography {
+    font-size: 2rem;
+    margin: 0 3rem 0 3rem;
+    padding-top: 1rem;
+    padding-left: 1rem;
+    padding-bottom: 1rem;
+    background-color: #db0068;
+}
+body {
+    background-color: #f8f80c;
+}
+/*Video Section*/
+#vid-div {
+    margin: 0 auto;
+    width: 100%;
+}
+#vid-wrapper {
+    position: relative;
+    padding-bottom: 56.25%;
+    margin-top: 60px;
+    margin-bottom: 15px;
+    height: 0px;
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+#vid-wrapper iframe {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    height: 100%;
+    width: 100%;
+}
+/*End of Video Section*/
 #gallery {
     margin: 0 3rem 0 3rem;
     padding-top: .5rem;
@@ -130,6 +133,15 @@ footer {
     background-color: #f8970c;
 }
 
+.yellow {
+    color: #f8f80c;
+}
+.green {
+    color: #0bd985;
+}
+/*End of Section Style*/
+
+/*Media*/
 @media screen and (min-width: 60em) {
 
 figure {
@@ -176,3 +188,4 @@ figure {
 }
 
 }
+/*End of Media*/
