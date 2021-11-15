@@ -23,9 +23,11 @@ body {
 
 .navbar {
     background-color: darkorange;
-    color: white;
+    color: whitesmoke;
     display: flex;
     flex-direction: column;
+    align-items: center;
+    text-align: center;
     font-size: 1.5rem;
     margin-bottom: 1rem;
 }
@@ -50,12 +52,24 @@ body {
 
 /* navigation list */
 
+.navbar-links li {
+    display: block;
+    padding: 0.5em 0;
+}
 
 /*  
  style all a tags in header 
  and then on hover
 */
 
+.navbar-links a {
+    color: black;
+    background-color: darkorange;
+    font-size: 1.5rem;
+    padding: 1rem 1.25rem;
+    letter-spacing: 2px;
+    text-decoration: none;
+}
 
 
 
