@@ -26,7 +26,7 @@ body {
     color: whitesmoke;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: left;
     text-align: center;
     font-size: 1.5rem;
     margin-bottom: 1rem;
@@ -38,7 +38,7 @@ body {
 .logo {
     display: flex;
     align-items: center;
-
+    padding-top: 20px;
 }
 
 .logo img {
@@ -47,7 +47,7 @@ body {
 }
 
 .logo h1 {
-    font-size: 3.5rem;
+    font-size: 1.2rem;
 }
 
 /* navigation list */
@@ -86,3 +86,7 @@ media query for non-mobile nav bar
 min-width set to width of nav elements 
 such that no text wraps 
 */
+
+@media screen and (min-width: 60rem) {
+
+}
