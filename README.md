@@ -1,11 +1,12 @@
 Evren Yucekus-Kissane
+<br>
 [![Netlify Status](https://api.netlify.com/api/v1/badges/2557a18b-6276-47b4-9de1-4da1ee9470d1/deploy-status)](https://app.netlify.com/sites/awesomeman/deploys)
 
 
-#Project Description
-Projects Purpose: The project's purpose is to exhibit who I am and the values I hold. Who I am is shown thorugh the information about me, the video of me playing the air violin to a song I love, and images of me with friends and family.
-
-###Section 1: Information About Me
+<b>Project Description:</b>
+<br>
+<b>Projects Purpose:</b> The project's purpose is to exhibit who I am and the values I hold. Who I am is shown thorugh the information about me, the video of me playing the air violin to a song I love, and images of me with friends and family.
+<br>
 Objective: Communicate...
 <ol>
     <li>My name</li>
@@ -14,9 +15,10 @@ Objective: Communicate...
     <li>A blog article</li>
 </ol>
 
-Learned:
+<b>I Learned...</b>
 
-###Section 1: Setting up for Success!
+<b>1: Setting up for Success!</b>
+<br>
     Description - First I learned how to setup my work environment, install helpful plugins, such as live server, and improve my organization for my files on my computer.
     I learned how to...
 <ol>
@@ -25,7 +27,8 @@ Learned:
     <li>Setup a workspace</li>
     <li>Install pulgins</li>
 </ol>
-###Section 2: The Beginning of a Strong Foundation!
+<b>2: The Beginning of a Strong Foundation!</b>
+<br>
     Description: Second, I learned the basics of Hypertext Markup Language (HTML). I also learned how to pull up the development inspector to access code for loaded webpages and why it can be useful to do so.
     I learned how to...
 <ol>
@@ -35,7 +38,8 @@ Learned:
     <li>Access and use the development inspector</li>
 </ol>
 
-###Section 3: "Branching" out!
+<b>3: "Branching" out!</b>
+<br>
     Description: Third, I learned how create a GitHub account, how to create a Netflify account, and how to link them both with my local files. I also learned about some basics regarding webservers.
     I learned how to...
 <ol>
@@ -48,7 +52,8 @@ Learned:
     <li>Basically describe multiple aspects of webservers, i.e., HTTP, HTTPS, computer network, port, etc.</li>
 </ol>
 
-###Section 4: Intro. to the The Amazing World of CSS
+<b>4: Intro. to the The Amazing World of CSS</b>
+<br>
     Description: Fourth, I learned how to create a Cascading Style Sheet (CSS). As well as the basics of how to pick and apply the right color scheme and fonts.
     I learned how to...
 <ol>
@@ -57,45 +62,52 @@ Learned:
     <li>Pick and apply fonts</li>
 </ol>
 
-###Section 5:
-    Description: Fifth,
+<b>5: Phone Fun!</b>
+<br>
+    Description: Fifth, I learned about mobile design, responsive layout, and embedding media. I learned widely agreed upon methods such as creating a webpage from the mobile view first. I also learned very difficult concepts by playing fun games to improve my understanding of flexbox and grids, such as flexbox froggy and css grid garden.
     I learned how to...
 <ol>
-    <li></li>
-    <li></li>
-    <li></li>
-    <li></li>
+    <li>Create media queries for various screen sizes</li>
+    <li>Display and use a grid/flex display</li>
+    <li>embed a youtube video in a webpage</li>
 </ol>
 
-###Section 6:
-    Description: Sixth,
+<b>6: Tables and Forms!</b>
+<br>
+    Description: Sixth, I learned how to create and manipulate tables and forms. As a side note, I enjoyed creating tables so much I made a table to organize my class schedule for my upcoming semesters!
     I learned how to...
 <ol>
-    <li></li>
-    <li></li>
-    <li></li>
-    <li></li>
+    <li>Create a form</li>
+    <li>Assemble the aspects of a form</li>
+    <li>Link a form with netlify to send me the data</li>
+    <li>Create a table</li>
 </ol>
 
-###Section 7:
-    Description: Seventh,
+<b>7: The Best for Last!!</b>
+<br>
+    Description: Finally, i learned how to make a navigation for my website. I learned how to assemble it and add a hamburger menu for certian screen dimensions. Flexbox came in real handy for this one!
     I learned how to...
 <ol>
-    <li></li>
-    <li></li>
-    <li></li>
-    <li></li>
+    <li>Assemble a navigation bar</li>
+    <li>Create cool hover animation</li>
+    <li>Smoothly send my visitors to a certian part of the page</li>
+    <li>Write the most complicated CSS of my life!</li>
 </ol>
-
-###Section 8:
-    Description: Finally,
-    I learned how to...
-<ol>
-    <li></li>
-    <li></li>
-    <li></li>
-    <li></li>
-</ol>
-
+<br>
+<br>
 <b>Color Scheme:</b>
-Colors Used: #000 #333 grey whitesmoke
+
+<ol>
+  <li>#000</li>
+  <li>#333</li>
+  <li>grey</li>
+  <li>whitesmoke</li>
+</ol>
+<br>
+<br>
+<b>Citations:<b>
+<ol>
+  <li>https://www.geeksforgeeks.org/how-to-zoom-an-image-on-mouse-hover-using-css/</li>
+  <li>https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_image_overlay_fade</li>
+  <li>https://www.tutorialrepublic.com/codelab.php?topic=faq&file=css-image-swap-on-hover</li>
+</ol>
