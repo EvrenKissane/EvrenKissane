@@ -3,7 +3,7 @@ Evren Yucekus-Kissane
 [![Netlify Status](https://api.netlify.com/api/v1/badges/2557a18b-6276-47b4-9de1-4da1ee9470d1/deploy-status)](https://app.netlify.com/sites/awesomeman/deploys)
 
 
-<b>Project Description</b>
+<b>Project Description:</b>
 <br>
 <b>Projects Purpose:</b> The project's purpose is to exhibit who I am and the values I hold. Who I am is shown thorugh the information about me, the video of me playing the air violin to a song I love, and images of me with friends and family.
 <br>
