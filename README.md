@@ -111,4 +111,3 @@ Objective: Communicate...
   <li>https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_image_overlay_fade</li>
   <li>https://www.tutorialrepublic.com/codelab.php?topic=faq&file=css-image-swap-on-hover</li>
 </ol>
-

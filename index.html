@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="icon" type="image/png" sizes="96x96" href="img/favicon-96x96.png">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -18,18 +19,22 @@
 
 
     <header>
-        <nav class="navbar">
-            <div class="logo">
-                <img id="logo" src="img/logo-96X96.svg" alt="Blue origami logo">
-                <h1>Web Dev I</h1>
-            </div>
-            <div class="navbar-links">
-                <ul><a href="#bio">Bio</a></ul>
-                <ul><a href="#gallery">Gallery</a></ul>
-                <ul><a href="#lit">Blog</a></ul>
-                <ul><a href="#contact">Contact Me</a></ul>
-            </div>
+        <nav class="nav">
+            <input type="checkbox" id="nav-checkbox" class="nav-checkbox">
+            <label for="nav-checkbox" class="nav-toggle">
+            <img class="menu" src="img/hamburger-icon.svg" width="100" title="bars" alt="menu icon">
+            <img class="close" src="img/x-icon.svg" width="100" title="bars" alt="menu icon">
+            </label>
+
+            <ul class="navbar-links">
+                <img id="logo" src="img/logo.svg" alt="Evren's initials">
+                <li><a href="#bio">Bio</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#lit">Blog</a></li>
+                <li><a href="#contact">Contact Me</a></li>
+            </ul>
         </nav>
+
     </header>
 
     <main>
@@ -39,8 +44,8 @@
             <img id="avatar" src="img/avataaars.png" alt="Avatar picture of me">
 
             <div id="biography-head">
-                <p class="green">Evren Yucekus-Kissane</p>
-                <p class="green">Basking Ridge, NJ</p>
+                <p class="whitesmoke">Evren Yucekus-Kissane</p>
+                <p class="whitesmoke">Basking Ridge, NJ</p>
             </div>
 
         </section>
@@ -55,20 +60,31 @@
             </div>
 
             <div id="biography">
-                <h2 class="yellow">Biography</h2>
-                <p>I want to...</p>
-                <p>Be rich!</p>
-                <p>Mine gold from asteroids!</p>
-                <p>Be immortal!</p>
-                <p>Build great relationships!</p>
-                <p>Have an amazing life!</p>
+                <h2 class="whitesmoke">Biography</h2>
+                <h3>I want to...</h3>
+                <ol>
+                    <li class="body-text">Be rich!</li>
+                    <li class="body-text">Mine gold from asteroids!</li>
+                    <li class="body-text">Be immortal!</li>
+                    <li class="body-text">Build great relationships!</li>
+                    <li class="body-text">Have an amazing life!</li>
+                </ol>
+                <br>
+                <h3>But Really, Who is Evren?</h3>
+                <p class="body-text">Funny you ask! I have an entire biography written that answers that EXACT question!!</p>
+
+                <p class="body-text">My name is Evren Yucekus-Kissane. I am a computer science student at Raritan Valley Community College. I have a passion for meaningful and challenging work. I take pride in learning and constantly improving. I enjoy working hard and achieving my goals, specifically towards artificial intelligence and public service.<p></p>
+
+                <p class="body-text">I've become captivated by the concept and potential of A.I. and I'm really looking forward to gaining practical knowledge and experience in the field soon. I think A.I. is the future and I want to be a part of it. I am interested in A.I. because it combines both of my passions, creating interesting things using code and public service. Ultimately, I want to create the most efficient, effective, and intelligent machine ever.</p>
+                    
+                <p class="body-text">**Disclaimer** This statement is based on my knowledge as of 12/13/21. As technology advances, and as I learn and improve my understanding of A.I. this statement will be subject to alteration.*</p>
             </div>
 
         </section>
 
         <section id="hobbies">
 
-            <h2 class="yellow">Hobbies</h2>
+            <h2 class="whitesmoke">Hobbies</h2>
 
             <ul>
                 <li>Working out</li>
@@ -110,47 +126,44 @@
 
         <article id="lit">
             
-            <h2>Pride and prejudice</h2>
+            <h2>Image Hover Effects</h2>
+        
+            <div id="blog-body">
 
-            <div>
+                
+                <p class="body-text">Specifically, image hover effects can be used to replace an image with another image, overlay content above an image, and zoom into an image. Image hover effects can be used to manipulate the design of images when the cursor hovers on them. They allow a person to add an interactive element to their images using CSS.</p>
+                <h3>First:</h3>
+                <p class="body-text">You can easily change the image by hovering over it is by using the CSS property background-image. This property combined with the pseudo-class :hover allows the coder to replace the original image with another one using the url() function.</p>
+                <p class="body-text">If you want to get a bit fancy, then you can use an image sprite. This is an image that contains multiple images and they can be individually shown by using the correct x and y coordinates. This will decrease the number of HTML requests that are performed, thus, improving the smoothness and speed of your hover effect.</p>
+                <!--Beginning of mostly attained code-->
+                <div class="card">
+                    <img src="img/card-back.png" class="img-bottom" alt="Card Back">
+                    <img src="img/card-front.png" class="img-top" alt="Card Front">
+                </div>
+                <!--End of mostly attained code-->
+                
+                <h3>Second:</h3>
+                <p class="body-text">A person can use the hover property to create a fade-in overlay for their images using CSS.</p> 
+                <p class="body-text">They can do this by initially coding the image within a div for containing their image and the overlay. Then, creating two types of divs, one containing everything they want to be a part of the overlay and another for the content styling. The overlay div will have its own class and possess position, size, and transition functions. The div containing the content should have its own class containing functions to position and style the content. Lastly, they can pair the images container’s class with the :hover pseudo-class, then a space and the overlay’s class to ensure when users hover over the images container the class containing the overlay will have the opacity of whatever the coder desires. They can make the overlay transparent, translucent, or opaque.</p>
+                <!--Beginning of mostly attained code (https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_image_overlay_fade)-->
+                <div class="container">
+                    <img src="img/peekaboo.png" alt="girl smiling" class="image">
+                    <div class="overlay">
+                      <div class="text">Hello World</div>
+                    </div>
+                  </div>
+                <!--End of mostly attained code-->
 
-                <p class="p">She did at last extort from her father an acknowledgment that the horses were engaged. 
-                    Jane was therefore obliged to go on horseback, and her mother attended her to the door 
-                    with many cheerful prognostics of a bad day. Her hopes were answered; Jane had not been
-                    gone long before it rained hard. Her sisters were uneasy for her, but her mother was 
-                    delighted. The rain continued the whole evening without intermission; Jane certainly 
-                    could not come back.
-
-                    “This was a lucky idea of mine, indeed!” said Mrs. Bennet more than once, as if the 
-                    credit of making it rain were all her own. Till the next morning, however, she was not 
-                    aware of all the felicity of her contrivance. Breakfast was scarcely over when a servant 
-                    from Netherfield brought the following note for Elizabeth:
-                    
-                    “MY DEAREST LIZZY,--
-                    
-                    “I find myself very unwell this morning, which, I suppose, is to be imputed to my getting 
-                    wet through yesterday. My kind friends will not hear of my returning till I am better. They 
-                    insist also on my seeing Mr. Jones--therefore do not be alarmed if you should hear of his 
-                    having been to me--and, excepting a sore throat and headache, there is not much the matter 
-                    with me.--Yours, etc.”
-                    
-                    “Well, my dear,” said Mr. Bennet, when Elizabeth had read the note aloud, “if your daughter 
-                    should have a dangerous fit of illness--if she should die, it would be a comfort to know that 
-                    it was all in pursuit of Mr. Bingley, and under your orders.”
-                    
-                    “Oh! I am not afraid of her dying. People do not die of little trifling colds. She will be 
-                    taken good care of. As long as she stays there, it is all very well. I would go and see her 
-                    if I could have the carriage.”
-                    
-                    Elizabeth, feeling really anxious, was determined to go to her, though the carriage was not to 
-                    be had; and as she was no horsewoman, walking was her only alternative. She declared her resolution.
-                    
-                    “How can you be so silly,” cried her mother, “as to think of such a thing, in all this dirt! 
-                    You will not be fit to be seen when you get there.”
-                    
-                    “I shall be very fit to see Jane--which is all I want.”</p>
-
+                <h3>Third:</h3>
+                <p>Setting up a user’s ability to zoom in to an image can be done by creating one div for the targeted image. The class associated with this div will have to purpose of styling and positioning the container for the image. Furthermore, you’ll want to add a transition function to the image within that class. Finally, pair the container class with the :hover pseudo-class, then a space and the word img to apply the transform function. This function will apply the zooming effect.</p>
             </div>
+            <!--Beginning of attained code (https://www.geeksforgeeks.org/how-to-zoom-an-image-on-mouse-hover-using-css/)-->
+            <div class="geeks">
+                <img src=
+        "https://media.geeksforgeeks.org/wp-content/uploads/20200403151026/adblur_gfg.png"
+                    alt="Geeks Image" />
+            </div>
+            <!--End of attained code-->
 
         </article>
 
@@ -220,7 +233,9 @@
     </main>
 
     <footer>
-        <p>Copyright @ 2021 Evren Yucekus-Kissane</p>
+                <p>Evren Yucekus-Kissane</p>
+        <p>GitHub Repository: https://github.com/EvrenKissane/EvrenKissane.git</p> 
+        <p>Copyright @ 2021</p>
     </footer>
 
 </body>
