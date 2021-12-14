@@ -1,16 +1,6 @@
 Evren Yucekus-Kissane
 [![Netlify Status](https://api.netlify.com/api/v1/badges/2557a18b-6276-47b4-9de1-4da1ee9470d1/deploy-status)](https://app.netlify.com/sites/awesomeman/deploys)
 
-<!--
-#About The Project
-The project is a personal website for me, Evren Yucekus-Kissane. It exhibits:
-<ol>
-    <li>Information about me</li>
-    <li>A video of me playing the air violin in synchrony with Antonio Vivaldi's Violin Concerto</li>
-    <li>Images of me with friends/family</li>
-    <li>A blog article</li>
-</ol>
--->
 
 #Project Description
 Projects Purpose: The project's purpose is to exhibit who I am and the values I hold. Who I am is shown thorugh the information about me, the video of me playing the air violin to a song I love, and images of me with friends and family.
@@ -107,5 +97,5 @@ Learned:
     <li></li>
 </ol>
 
-#Color Scheme:
-Colors: #000 #333 grey whitesmoke
+<b>Color Scheme:</b>
+Colors Used: #000 #333 grey whitesmoke

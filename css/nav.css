@@ -1,9 +1,13 @@
-/* make scrolling smooth */
-
+/*
+Make scrolling smooth
+*/
 html {
   scroll-behavior: smooth;
 }
 
+/*
+Logo
+*/
 .logo {
     display: flex;
     align-items: center;
@@ -16,10 +20,10 @@ html {
     width: 9vw;
 }
 
-.logo h1 {
-    font-size: 1.2rem;
-}
 
+/*
+Navbar
+*/
 .navbar-links li {
     display: block;
     padding: 0.5em 0;
@@ -32,7 +36,6 @@ html {
     outline: none;
 }
 
-/*new*/
 .nav {
     border-bottom: 2px solid grey;
 
@@ -98,10 +101,9 @@ nav.menu {
 }
 
 
-/* 
-desktop view
+/*
+Desktop view
 */
-
 @media only screen and (min-width: 60rem) {
     
     .nav-toggle {
@@ -116,8 +118,9 @@ desktop view
         display: block;
     }
 
-/*Media query for mobile*/
-
+/*
+Mobile view
+*/
 @media screen and (min-width: 100rem) {
 
 .menu {
