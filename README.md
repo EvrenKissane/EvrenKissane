@@ -110,7 +110,5 @@ Objective: Communicate...
   <li>https://www.geeksforgeeks.org/how-to-zoom-an-image-on-mouse-hover-using-css/</li>
   <li>https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_image_overlay_fade</li>
   <li>https://www.tutorialrepublic.com/codelab.php?topic=faq&file=css-image-swap-on-hover</li>
-  <li></li>
-  <li></li>
 </ol>
 
